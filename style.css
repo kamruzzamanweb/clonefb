@@ -1,0 +1,250 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: tahoma;
+}
+/*Facebook Header Part Start from here */
+.header{
+	background: linear-gradient(#46639E, #3B5998);
+	overflow: hidden;
+	padding-top: 10px;
+	padding-bottom: 4px;
+	border-bottom: 1px solid #133783;
+}
+.mid{
+	width: 80%;
+	margin: auto;
+}
+.logo{
+	width: 60%;
+	float: left;
+	margin-top: 25px;
+}
+.login{
+	width: 40%;
+	float: left;
+}
+.login1 input, .login2 input{
+	display: block;
+	border:1px solid #1d2a5b;
+	padding: 3px;
+	margin-top: 3px;
+
+}
+.login1, .login2, .login3{
+	float: left;
+	margin-right: 10px;
+}
+.login1 label, .login2 label{
+	color: #fff;
+	font-size: 14px;
+}
+.login2 a{
+	text-decoration: none;
+	color: #9cb4d8;
+	font-size: 12px;
+}
+.login2 a:hover{
+	text-decoration: underline;
+}
+.login3 input{
+	border: 1px solid #29487d;
+	background-color: #4267b2;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+	padding: 3px 7px;
+	font-size: 11px;
+	cursor: pointer;
+	margin-top: 24px;
+}
+
+/*Facebook Header Part end here */
+
+/*Facebook body Part start from here */
+.body{
+	background: linear-gradient(#FEFFFF, #D4D9E8);
+	overflow: hidden;
+}
+.left-body{
+	width: 55%;
+	float: left;
+}
+.right-body{
+	width: 45%;
+	float: left;
+}
+.left-body h2{
+	margin-top: 40px;
+	font-size: 20px;
+	color: #0e385f;
+	width: 90%;
+}
+.right-body h1{
+	font-size: 36px;
+	color: #333;
+	margin-top: 20px;
+}
+
+.right-body > p{
+	color: #1d2129;
+	font-size: 19px;
+	margin: 10px 0px 15px 0px;
+}
+
+.input-box{
+	overflow: hidden;
+	width: 86%;
+}
+.input-box input{
+	width: 100%;
+	box-sizing: border-box;
+	font-size: 18px;
+	padding: 8px 10px;
+	margin-bottom: 5px;
+	border: 1px solid #bdc7d8;
+	border-radius: 5px;
+}
+.birthday{
+	margin: 10px 0px;
+	overflow: hidden;
+}
+.birthday h2{
+	color: #1d2129;
+	font-size: 18px;
+	font-weight: normal;
+	margin: 10px;
+}
+.birthday select{
+	border: 1px solid #bdc7d8;
+	font-size: 13px;
+	padding: 5px;
+	float: left;
+	display: block;
+}
+.birthday a{
+	font-size: 11px;
+	text-decoration: none;
+	color: #365899;
+	width: 150px;
+	display: inline-block;
+	margin-left: 10px
+}
+.birthday a:hover{
+	text-decoration: underline;
+}
+.gender{
+	margin: 20px 0px;
+}
+.gender p{
+	font-size: 11px;
+	color: #777;
+	margin: 15px 0px;
+	width: 316px;
+}
+.gender p a {
+	text-decoration: none;
+	font-size: 11px;
+	color: #365899;
+}
+.gender p a:hover{
+	text-decoration: underline;
+}
+.gender label{
+	font-size: 18px;
+	color: #1d2129;
+	margin-right: 15px;
+	vertical-align: top;
+	line-height: 25px;
+}
+.gender input{
+	margin-right: 10px;
+}
+.button{
+	margin: 20px 0px;
+}
+.button p{
+	font-size: 13px;
+	color: #666;
+	font-weight: bold;
+	margin-top: 40px;
+}
+.button p a {
+	text-decoration: none;
+	color: #365899;
+}
+.button p a:hover{
+	text-decoration: underline;
+}
+.button input{
+	padding: 7px 20px;
+	font-size: 19px;
+	font-weight: bold;
+	color: #fff;
+	background: linear-gradient(#67ae55, #578843);
+	box-shadow: inset 0 1px 1px #a4e388;
+	border-color: #3b6e22 #3b6e22 #2c5115;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 5px;
+	text-shadow: 0 1px 2px rgba(0,0,0,.5);
+	cursor: pointer;
+}
+.button input:hover{
+	background: linear-gradient(#79bc64, #578843);
+
+}
+/*Facebook body Part end here */
+/*Facebook Footer Part Start from here */
+.footer{
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+.f-top{
+	border-bottom: 1px solid #dddfe2;
+	padding-bottom: 5px;
+}
+.f-top ul{
+	list-style: none;
+}
+.f-top ul li{
+	display: inline-block;
+}
+.f-top ul li a {
+	text-decoration: none;
+	font-size: 12px;
+	color: #365899;
+	padding: 10px 7px;
+	display: block;
+}
+.f-top ul li a:hover{
+	text-decoration: underline;
+}
+.f-middle{
+	padding: 5px 0px;
+}
+.f-middle ul{
+	list-style: none;
+}
+.f-middle ul li{
+	display: inline-block;
+	width: 8.5%;
+}
+.f-middle ul li a {
+	text-decoration: none;
+	font-size: 12px;
+	color: #365899;
+	display: block;
+	padding: 0px 7px;
+}
+.f-middle ul li a:hover{
+	text-decoration: underline;
+}
+.f-bottom p{
+	color: #737373;
+	font-size: 11px;
+	margin: 20px 0px;
+	padding: 7px;
+}
+
+/*Facebook Footer Part Start from here */
